@@ -1,4 +1,4 @@
-# Kontakt Home QA Pipeline
+# Call-Center QA Pipeline
 
 Call-center keyfiyyətə nəzarət sistemi. Audio transkriptləri analiz edərək operatorun 5 meyar üzrə qiymətləndirilməsini həyata keçirir.
 
