@@ -100,11 +100,3 @@ docker-compose --profile test run test
 2. **KR2.3 meyarı** — Excel faylında yox idi, eval dataset-dən analiz edilərək "Məhsul/xidmət bilikləri" kimi müəyyən edildi.
 3. **FIN kod false positive** — 7 simvollu hər söz FIN deyil. Disambiguation funksiyası əlavə edildi.
 
-## Təkmilləşdirmə imkanları
-
-Əgər daha çox vaxt olsaydı:
-- **Few-shot prompting** — hər meyar üçün nümunə transkriptlər prompt-a əlavə etmək
-- **Caching** — eyni transkriptlər üçün LLM cavablarını cache-ləmək
-- **Async API calls** — 5 meyarı paralel qiymətləndirmək (latency azaltma)
-- **Daha çox rule-based** — KR2.2 üçün TF-IDF similarity, KR2.4 üçün entity extraction
-- **A/B testing** — fərqli prompt versiyalarını müqayisə etmək
